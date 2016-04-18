@@ -1,0 +1,27 @@
+﻿生成启动时间为 2016/4/6 9:12:42。
+     1>项目“F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\CocosProject1.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\Debug.win32\CocosProject1.exe) does not match the Linker's OutputFile property value (F:\studio\CocosProject1\simulator\win32\CocosProject1.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>PreLinkEvent:
+         if not exist "F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\Debug.win32\" mkdir "F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Cocos\frameworks\cocos2d-x-3.8.1\prebuilt\win32\*.*" "F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         复制了 60 个文件
+       Link:
+         CocosProject1.vcxproj -> F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\Debug.win32\CocosProject1.exe
+       CustomBuildStep:
+         if not exist "F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32" mkdir "F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32"
+         xcopy /Y /Q "F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\Debug.win32\*.dll" "F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32"
+         xcopy /Y /Q "F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\..\Classes\ide-support\lang" "F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32"
+         xcopy "F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\..\..\..\res" "F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32\res" /D /E /I /F /Y
+         xcopy "F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\..\..\..\src" "F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32\src" /D /E /I /F /Y
+         :VCEnd
+         复制了 16 个文件
+         复制了 1 个文件
+         复制了 0 个文件
+         复制了 0 个文件
+     1>已完成生成项目“F:\studio\CocosProject1\frameworks\runtime-src\proj.win32\CocosProject1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.95
